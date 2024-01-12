@@ -1,6 +1,7 @@
-opencv-python>=4.5.3
-matplotlib>=3.4.3
-streamlit>=0.89.0
-tensorflow>=2.6.0
-numpy>=1.21.1
-
+opencv-python
+matplotlib
+streamlit
+tensorflow
+numpy
+protobuf
+streamlit-option-menu
