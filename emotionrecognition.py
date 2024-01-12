@@ -1,4 +1,9 @@
 import cv2
+cv2.setNumThreads(0)  # Avoid multi-threading to prevent issues
+
+import matplotlib
+matplotlib.use('Agg')  # Use a non-interactive backend for Matplotlib
+
 import streamlit as st
 from tensorflow.keras.models import load_model
 import numpy as np
