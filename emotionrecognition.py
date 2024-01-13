@@ -1,3 +1,12 @@
+import subprocess
+
+# Update package information
+subprocess.run(["sudo", "apt-get", "update"])
+
+# Install libgl1-mesa-glx
+subprocess.run(["sudo", "apt-get", "install", "libgl1-mesa-glx"])
+
+
 import cv2
 cv2.setNumThreads(0)  # Avoid multi-threading to prevent issues
 
